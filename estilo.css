@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'titulo';
+    src: url(_fonts/AGENCYR.TTF);
+}
+
+body{
+    background-image: url(_background/space_stars_constellation_163816_2560x1024.jpg);
+    animation-name: background;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes background{
+    0%{
+        background-position-x: 0%;
+    }
+    25%{
+        background-position-x: 75%;
+        background-position-y: 50%;
+    }
+    75%{
+        background-position-x: 80;
+        background-position-y: 20%;
+    }
+    100%{
+        background-position-x: 100%;
+        background-position-y: 40%;
+    }
+}
+
+
+.logo{
+    width: 300px;
+    padding-top: 60px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.titulo{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'titulo';
+    font-size: 35pt;
+    color: white;
+
+}
+.img_link{
+    margin-top: 20px;
+}
+.links{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    
+    
+}

@@ -1,0 +1,23 @@
+@media(max-width: 480px){
+    .logo{
+        width: 150px;
+    }
+    .titulo{
+        margin-top: 50px;
+        font-family: 'titulo';
+        font-size: 30pt;
+        color: white;
+    
+    }
+    .links{
+        margin-top: 10px;
+        width: 300px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img_link{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
